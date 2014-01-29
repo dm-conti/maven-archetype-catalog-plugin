@@ -1,6 +1,6 @@
 (1) Customizzare il plugin prefix aggiungendo al settings.xml sotto .m2:
 <pluginGroups>
-	<pluginGroup>it.mexican.plugins</pluginGroup>
+	<pluginGroup>org.codehouse.mojo</pluginGroup>
 </pluginGroups>
 
 quando maven esegue la scansione identifica il plugin custom ed associa, per convenzione, 
@@ -39,6 +39,9 @@ gestire le eccezioni
 
 REQUISITI
 Version:  3.1.0 - Revision: 30062 
+
+URL PayBay
+http://artifactory.rmdc.internal.quigroup.it/libs-releases-local
 
 PROBLEMA
 Il model non prevede la presenza di xsi ed xmlns quindi non riesco a deserializzare.

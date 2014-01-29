@@ -1,0 +1,17 @@
+<plugin>
+	<groupId>org.codehouse.mojo</groupId>
+    <artifactId>maven-archetype-catalog-plugin</artifactId>
+	<version>2.0-SNAPSHOT</version>
+    <configuration>
+    	<artifactoryUrl>http://localhost:8081/artifactory/libs-release-local</artifactoryUrl>
+        <username>admin</username>
+        <password>password</password>
+    </configuration>
+    <executions>
+    	<execution>
+        	<goals>
+            	<goal>deploy-catalog</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
