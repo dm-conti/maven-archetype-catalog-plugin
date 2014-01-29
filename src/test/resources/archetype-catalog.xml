@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog>
+  <archetypes>
+    <archetype>
+       <groupId>com.sun.jersey.archetypes</groupId>
+       <artifactId>jersey-quickstart-grizzly</artifactId>
+       <version>1.8</version>
+       <repository>http://download.java.net/maven/2</repository>
+       <description>Archetype for creating a RESTful web application with Jersey and Grizzly</description>
+    </archetype>
+    <archetype>
+       <groupId>com.sun.jersey.archetypes</groupId>
+       <artifactId>jersey-quickstart-grizzly2</artifactId>
+       <version>1.8</version>
+       <repository>http://download.java.net/maven/2</repository>
+       <description>Archetype for creating a RESTful web application with Jersey and Grizzly 2.x</description>
+    </archetype>
+    <archetype>
+       <groupId>com.sun.jersey.archetypes</groupId>
+       <artifactId>jersey-quickstart-webapp</artifactId>
+       <version>1.8</version>
+       <repository>http://download.java.net/maven/2</repository>
+       <description>Archetype for creating a Jersey based RESTful web application with WAR packaging</description>
+    </archetype>
+    <archetype>
+       <groupId>com.sun.jersey.archetypes</groupId>
+       <artifactId>jersey-quickstart-ejb</artifactId>
+       <version>1.8</version>
+       <repository>http://download.java.net/maven/2</repository>
+       <description>Archetype for creating a Jersey based RESTful EJB application with WAR packaging</description>
+    </archetype>
+     <archetype>
+      <groupId>com.sun.faces</groupId>
+      <artifactId>simple-jsf</artifactId>
+      <version>1.0</version>
+      <repository>http://download.java.net/maven/2</repository>
+      <description>Archetype for creating a simple JSF project</description>
+    </archetype>
+    <archetype>
+      <groupId>com.sun.faces.regression</groupId>
+      <artifactId>i_jsf_XXXX-archetype</artifactId>
+      <version>1.0</version>
+      <repository>http://download.java.net/maven/2</repository>
+      <description>Archetype for mojarra JSF regression tests</description>
+    </archetype>
+   </archetypes>
+</archetype-catalog>
