@@ -1,0 +1,3 @@
+it/mexican/plugins/PluginValidatorTest.class
+it/mexican/plugins/JAXBConverterTest.class
+it/mexican/plugins/HttpTemplateTest.class

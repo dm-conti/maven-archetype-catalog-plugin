@@ -1,0 +1,9 @@
+/Users/uzumaki/git/maven-archetype-catalog-plugin/src/main/java/it/mexican/plugin/model/ArchetypeCatalog.java
+/Users/uzumaki/git/maven-archetype-catalog-plugin/src/main/java/it/mexican/plugin/util/ArchetypeCatalogFileUtil.java
+/Users/uzumaki/git/maven-archetype-catalog-plugin/src/main/java/it/mexican/plugin/util/HttpTemplate.java
+/Users/uzumaki/git/maven-archetype-catalog-plugin/src/main/java/it/mexican/plugin/ArchetypeCatalogUpdatorMojo.java
+/Users/uzumaki/git/maven-archetype-catalog-plugin/src/main/java/it/mexican/plugin/model/ObjectFactory.java
+/Users/uzumaki/git/maven-archetype-catalog-plugin/src/main/java/it/mexican/plugin/converter/JAXBConverter.java
+/Users/uzumaki/git/maven-archetype-catalog-plugin/src/main/java/it/mexican/plugin/model/Archetype.java
+/Users/uzumaki/git/maven-archetype-catalog-plugin/src/main/java/it/mexican/plugin/util/HttpOperator.java
+/Users/uzumaki/git/maven-archetype-catalog-plugin/src/main/java/it/mexican/plugin/validator/PluginValidator.java

@@ -1,12 +1,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	
 	<groupId>org.codehouse.mojo</groupId>
 	<artifactId>maven-archetype-catalog-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
+	
 	<version>2.0-SNAPSHOT</version>
+	
 	<name>maven-archetype-catalog-plugin</name>
 	<url>http://maven.apache.org</url>
+
+	<properties>
+		<!--maven variable which points to your local repository -->
+		<internal.repo.path>file:///Users/uzumaki/git/mexican-mvn-repo/snapshots/</internal.repo.path>
+	</properties>
 
 	<dependencies>
 		<!-- Maven MOJO -->
@@ -70,5 +78,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>Internal Repository</name>
+			<url>${internal.repo.path}</url>
+		</repository>
+	</distributionManagement>
 
 </project>

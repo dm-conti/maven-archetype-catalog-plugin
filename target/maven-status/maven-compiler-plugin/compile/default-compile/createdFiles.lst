@@ -1,0 +1,10 @@
+it/mexican/plugin/util/HttpOperator.class
+it/mexican/plugin/util/HttpTemplate.class
+it/mexican/plugin/model/Archetype.class
+it/mexican/plugin/model/ArchetypeCatalog.class
+it/mexican/plugin/model/ArchetypeCatalog$Archetypes.class
+it/mexican/plugin/util/ArchetypeCatalogFileUtil.class
+it/mexican/plugin/validator/PluginValidator.class
+it/mexican/plugin/model/ObjectFactory.class
+it/mexican/plugin/ArchetypeCatalogUpdatorMojo.class
+it/mexican/plugin/converter/JAXBConverter.class
